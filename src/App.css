@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Circular Std Book';
+}
+
+/* Style for nav bar */
+.nav-bar {
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  max-width: 165.988rem;
+  width: 80%;
+  margin: 8.28rem auto 0;
+  background: white;
+}
+
+.nav-links li {
+  font-size: 2.4rem;
+  margin-left: 7.5rem;
+  color: #c1ccf4;
+  cursor: pointer;
+
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #c1ccf4;
+}
+
+.nav-links a:hover, .nav-links a:focus, .nav-links li:hover, .nav-links li:focus {
+  color: #7f94e0 !important;
+}
+
+.logo {
+  width: 8.655rem;
+  height: 8.655rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 1rem;
+}
+
+/* Style for landing page */
+
+.landing, .aboutMe {
+  display: flex;
+  height: 68rem;
+  box-shadow: 0px 50px 50px -50px rgba(0, 0, 0, 0.13);
+  border-radius: 0 0 80px 80px;
+}
+
+.landing:before {
+  content: "";
+  height: 7px;
+  width: 100%;
+  position: absolute;
+  top: -7px;
+  background: inherit;
+  z-index: 2;
+}
+
+.intro {
+  margin-left: 17.357rem;
+  margin-top: 14rem;
+}
+
+.intro h1 {
+  font-size: 6.4rem;
+  color: #454545;
+}
+
+.intro h2 {
+  font-size: 3.6rem;
+  color: #7f94e0;
+}
+
+.intro p {
+  font-size: 2.4rem;
+  color: #8d94b0;
+  padding-top: 6rem;
+}
+
+.landing img {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+/* Styles for project section */
+
+.projectCard {
+  width: 76.884rem;
+  height: 63.563rem;
+  box-shadow: 0px 4.1rem 6rem rgba(0, 0, 0, 0.06);
+  border-radius: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 6rem;
+  background-color: white;
+}
+
+.projectCard img {
+  width: 67.8334rem;
+  height: auto;
+  border-radius: 5rem;
+  margin-top: 4rem;
+}
+
+.projectCard ul, .modal ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  right: 7.5rem;
+  bottom: 20rem;
+}
+
+.projectCard li, .modal li {
+  width: 13.16rem;
+  height: 4.965rem;
+  font-size: 1.8rem;
+  color: white;
+  background-color: #a9b7ea;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  margin-right: 2rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 10rem;
+}
+
+.projectBottom {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.projectBottom h3 {
+  font-size: 3.6rem;
+  color: #454545;
+}
+
+.projectBottom button {
+  width: 6.923rem;
+  height: 6.93rem;
+  border-radius: 5rem;
+  border: none;
+  background-color: #f2f4fc;
+  color: #a0afe8;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.backgroundProjects {
+  position: absolute;
+  right: 28rem;
+  top: 82.5rem;
+  pointer-events: none;
+  z-index: -100;
+}
+
+/* Styles for footer */
+
+footer {
+  margin: 15rem auto 0;
+  width: 95%;
+  border-top: 1px solid #E4E4E4;
+  padding-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerLeft h4 {
+  font-size: 3.6rem;
+  color: #454545;
+  margin-bottom: 2rem;
+}
+
+.footerLeft p {
+  font-size: 2.4rem;
+  color: #8d94b0;
+}
+
+.footerRight p {
+  font-size: 2.4rem;
+  color: #c2c7d8;
+}
+
+.footerLeft ul {
+  list-style: none;
+  display: flex;
+  font-size: 3rem;
+  color: #869ae1;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+.footerLeft li {
+  background-color: #f2f4fc;
+  margin-right: 3rem;
+  width: 7.332rem;
+  height: 7.332rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+}
+
+.footerLeft a {
+  text-decoration: none;
+  color: #869ae1;
+}
+
+/* Styles for About Me section */
+
+.aboutLeft {
+  width: 66rem;
+  margin-left: 17.357rem;
+  margin-top: 10rem;
+}
+
+.aboutLeft h1 {
+  font-size: 6.4rem;
+  color: #454545;
+  line-height: 9rem;
+}
+
+.aboutLeft h1 span {
+  color: #7f94e0;
+}
+
+.aboutLeft p {
+  font-size: 2.4rem;
+  color: #8d94b0;
+  margin-top: 6rem;
+  line-height: 4.7rem;
+}
+
+.aboutMe img {
+  width: auto;
+  height: 85%;
+  position: absolute;
+  right: 20rem;
+  bottom: 0;
+}
+
+
+.aboutMe {
+  justify-content: space-between;
+  position: relative;
+}
+
+/* Styles for Experiences section */
+
+.experiences h2 {
+  font-size: 6.4rem;
+  font-weight: 500;
+  color: #454545;
+  margin-left: 17.357rem;
+  margin-top: 10rem;
+}
+
+.job {
+  width: 80%;
+  border-radius: 6rem;
+  box-shadow: 0px 41px 60px rgba(0, 0, 0, 0.06);
+  margin: 0 auto 0;
+  display: flex;
+  margin-top: 11rem;
+  margin-bottom: 2rem;
+}
+
+.jobText {
+  margin-left: 2rem;
+}
+
+.job img {
+  min-width: 20rem;
+  height: 20rem;
+  border-radius: 5rem;
+  margin: 5rem;
+  padding: 0;
+}
+
+.job h3 {
+  font-size: 4.8rem;
+  font-weight: 500;
+  margin-top: 5rem;
+  color: #454545;
+}
+
+.job p {
+  font-size: 2.4rem;
+  padding-right: 13rem;
+  color: #8d94b0;
+  line-height: 4.7rem;
+  margin-top: 1.5rem;
+}
+
+.job p:first-of-type {
+  color: #8599E1;
+}
+
+/* Styles for Modal 1 */
+
+.modal {
+  width: 87.055rem;
+  box-shadow: 0 4.1rem 6rem rgba(0, 0, 0, 0.06);
+  border-radius: 8rem;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  background-color: white;
+  z-index: 100;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+}
+
+.closeModal {
+  opacity: 0;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+}
+
+.closeModal.active {
+  transform: scale(1);
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modalTop img {
+  width: 76.112rem;
+  height: 51.065rem;
+  border-radius: 6rem;
+  margin: 5.5rem;
+}
+
+.modalTop {
+  position: relative;
+}
+
+.modalTop ul {
+  bottom: 10rem;
+}
+
+.modalBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalBottom h3 {
+  font-size: 4.8rem;
+  color: #454545;
+  margin-left: 6.5rem;
+  margin-top: -3rem;
+}
+
+.modalBottom p {
+  font-size: 2rem;
+  color: #8d94b0;
+  line-height: 4.6rem;
+  margin-left: 6.5rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  width: 90%;
+}
+
+.modalButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalButtons a {
+  width: 10.238rem;
+  height: 10.238rem;
+  border-radius: 5rem;
+  font-size: 3.5rem;
+  background-color: #f2f4fc;
+  color: #869ae1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 5rem;
+}
+
+.modalButtons a {
+  margin-bottom: 2.5rem;
+}
+
+.modalButtons a:last-of-type {
+  margin-bottom: 4rem;
+}
+
+.blur div:not(.modal, .modalTop, .modalBottom, .modalButtons, .modalSide, .closeModal){
+  filter: blur(0.5rem);
+  pointer-events: none;
+}
+
+.aboutMe {
+  height: 80rem;
+}
+
+/* Mobile Responsiveness */
+
+@media screen and (max-width: 600px) {
+
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-links li:first-of-type {
+    margin-left: 0;
+  }
+
+  .logo {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Circular Std Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Circular Std Medium'), url('./fonts/CircularStd-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Circular Std Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Circular Std Book'), url('./fonts/CircularStd-Book.woff') format('woff');
+  }
