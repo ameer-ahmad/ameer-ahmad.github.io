@@ -11,7 +11,7 @@ const Nav = () => {
             <ul className="nav-links">
                 <li ><Link to="/" style={pathname === '/' ? {color: '#7f94e0'} : {color: '#c1ccf4'}}>Work</Link></li>
                 <li ><Link to="/about" style={pathname === '/about' ? {color: '#7f94e0'} : {color: '#c1ccf4'}}>About</Link></li>
-                <li><a href="https://drive.google.com/file/d/1aWRyeenBzEgdz1Y8Er6GscaEx1nn5Tow/view" target="blank">Resume</a></li>
+                <li><a href="https://drive.google.com/file/d/1R8AfhjTo8sdz9jEosABzndDqn58bTTol/view?usp=sharing" target="blank">Resume</a></li>
             </ul>
         </header>
     )
