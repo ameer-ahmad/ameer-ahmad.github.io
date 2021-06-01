@@ -96,6 +96,7 @@ body {
   position: absolute;
   right: 0;
   z-index: 1;
+  pointer-events: none;
 }
 
 /* Styles for project section */
@@ -111,6 +112,11 @@ body {
   position: relative;
   margin-bottom: 6rem;
   background-color: white;
+  cursor: pointer;
+}
+
+.projectCard:hover {
+  transform: scale(1.1);
 }
 
 .projectCard img {

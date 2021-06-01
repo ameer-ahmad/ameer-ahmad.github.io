@@ -3,7 +3,7 @@ import React from 'react';
 const ProjectCard = ({ name, languages, showModal, image }) => {
     console.log(image)
     return (
-        <div className="projectCard">
+        <div className="projectCard" onClick={showModal}>
             <div>
                 <img src={image}/>
                 <ul>
@@ -14,7 +14,7 @@ const ProjectCard = ({ name, languages, showModal, image }) => {
             </div>
             <div className="projectBottom">
                 <h3>{name}</h3>
-                <button onClick={showModal}>🡢</button>
+                <button>🡢</button>
             </div>
         </div>
     )
