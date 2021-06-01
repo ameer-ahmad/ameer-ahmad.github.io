@@ -173,6 +173,12 @@ body {
   color: #454545;
 }
 
+.projectBottom p {
+  font-size: 2rem;
+  color: #8d94b0;
+  margin-top: 1.5rem;
+}
+
 .projectBottom button {
   width: 6.923rem;
   height: 6.93rem;

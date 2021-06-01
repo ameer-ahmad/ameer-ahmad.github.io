@@ -15,7 +15,7 @@ const Modal2 = () => {
             <div className="modalBottom">
                 <div className="modalSide">
                     <h3>Rumble</h3>
-                    <p>&#8226;&nbsp; ToDo list created using React<br/>&#8226;&nbsp; Ability to add, complete, and remove tasks<br/>&#8226;&nbsp; Tasks can be sorted into all, todo, and completed categories</p>
+                    <p>&#8226;&nbsp; To Do list created using React<br/>&#8226;&nbsp; Ability to add, complete, and remove tasks<br/>&#8226;&nbsp; Tasks can be sorted into all, todo, and completed categories</p>
                 </div>
                 <div className="modalButtons">
                     <a href="https://github.com/ameer-ahmad/rumble" target="blank"><i className="fab fa-github"></i></a>

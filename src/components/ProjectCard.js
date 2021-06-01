@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectCard = ({ name, languages, showModal, image }) => {
+const ProjectCard = ({ name, languages, showModal, image, desc }) => {
     console.log(image)
     return (
         <div className="projectCard" onClick={showModal}>
@@ -13,7 +13,10 @@ const ProjectCard = ({ name, languages, showModal, image }) => {
                 </ul>
             </div>
             <div className="projectBottom">
-                <h3>{name}</h3>
+                <div>
+                    <h3>{name}</h3>
+                    <p>{desc}</p>
+                </div>
                 <button>🡢</button>
             </div>
         </div>

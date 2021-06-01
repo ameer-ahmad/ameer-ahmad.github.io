@@ -76,10 +76,10 @@ const Projects = () => {
     return (
         <>
             <div className="projects">
-                <ProjectCard showModal={showModal1} name="Shoppies" languages={['HTML5', 'CSS3', 'React']} image={shoppies} />
-                <ProjectCard showModal={showModal2} name="Rumble" languages={['HTML5', 'CSS3', 'React']} image={rumble}/>
-                <ProjectCard showModal={showModal3} name="Waves" languages={['HTML5', 'SCSS', 'React']} image={waves} />
-                <ProjectCard showModal={showModal4} name="Capture" languages={['HTML5', 'CSS3', 'React']} image={capture} />
+                <ProjectCard desc="React app which displays movie information from OMDB api" showModal={showModal1} name="Shoppies" languages={['HTML5', 'CSS3', 'React']} image={shoppies} />
+                <ProjectCard desc="To Do list created using React" showModal={showModal2} name="Rumble" languages={['HTML5', 'CSS3', 'React']} image={rumble}/>
+                <ProjectCard desc="Music Player created using React" showModal={showModal3} name="Waves" languages={['HTML5', 'SCSS', 'React']} image={waves} />
+                <ProjectCard desc="Videography portfolio site created using React" showModal={showModal4} name="Capture" languages={['HTML5', 'CSS3', 'React']} image={capture} />
             </div>
             <img className="backgroundProjects" src={backgroundProjects}/>
             <Modal1/>
