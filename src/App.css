@@ -95,7 +95,7 @@ body {
 .landing img {
   position: absolute;
   right: 0;
-  z-index: 1;
+  z-index: -1;
   pointer-events: none;
 }
 
@@ -446,7 +446,7 @@ footer {
   height: 80rem;
 }
 
-/* Mobile Responsiveness */
+/* Mobile Responsiveness Nav Bar */
 
 @media screen and (max-width: 600px) {
 
@@ -470,6 +470,52 @@ footer {
     margin-bottom: 2rem;
   }
 }
+
+/* Mobile Responsiveness Landing Page */
+
+@media screen and (max-width: 1650px) {
+  .landing img {
+    width: 1000px;
+  }
+  .landing{
+    height: 58.7rem;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .landing img {
+    width: 800px;
+  }
+  .landing{
+    height: 47rem;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .landing img {
+    width: 650px;
+  }
+  .landing{
+    height: 38.2rem;
+  }
+}
+
+@media screen and (max-width: 1225px) {
+  .landing img {
+    display: none;
+  }
+  .landing{
+    height: 38.2rem;
+  }
+  .intro {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+
 
 /* Fonts */
 

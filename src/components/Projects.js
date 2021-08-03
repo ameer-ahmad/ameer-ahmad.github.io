@@ -1,6 +1,5 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import backgroundProjects from '../img/background-projects.png';
 import Modal1 from './Modal1';
 import Modal2 from './Modal2';
 import shoppies from '../img/shoppies.png';
@@ -81,7 +80,6 @@ const Projects = () => {
                 <ProjectCard desc="Music Player created using React" showModal={showModal3} name="Waves" languages={['HTML5', 'SCSS', 'React']} image={waves} />
                 <ProjectCard desc="Videography portfolio site created using React" showModal={showModal4} name="Capture" languages={['HTML5', 'CSS3', 'React']} image={capture} />
             </div>
-            <img className="backgroundProjects" src={backgroundProjects}/>
             <Modal1/>
             <Modal2/>
             <Modal3/>

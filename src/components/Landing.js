@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundLanding from '../img/background-landing.png';
+import backgroundLanding from '../img/background.png';
 
 const Landing = () => {
     return (
