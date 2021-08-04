@@ -513,6 +513,54 @@ footer {
   }
 }
 
+/* Mobile Responsiveness Projects */
+
+@media screen and (max-width: 1675px) {
+
+  .projects {
+    transform:translateX(-50%) scale(0.75);
+    left: 50%;
+    top: -20rem;
+  }
+
+}
+
+@media screen and (max-width: 1250px) {
+
+  .projects {
+    width: 76.883rem;
+    transform: translateX(-50%);
+    grid-template-columns: 1fr;
+    top: 0rem;
+    left: 50%;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .projects {
+    transform: translateX(-50%) scale(0.75);
+    top: -40rem;
+
+  }
+
+  .work {
+    height: 275rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .projects {
+    transform: translateX(-50%) scale(0.5);
+    top: -80rem;
+  }
+
+  .work {
+    height: 200rem;
+  }
+}
 
 
 
